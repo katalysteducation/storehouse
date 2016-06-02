@@ -8,6 +8,6 @@ Code snippets, digital notes, configuration manuals.
 4. Keep your notes clean
 
 ### Repository structure
- - **napkin-notes** - place for team members notes
+ - **notes** - place for team members notes
  - **manuals** - instructions for installing stuff and do things
  - **scaffolds** - index of scaffold projects with predefined file structures and tasks configuration for various applications

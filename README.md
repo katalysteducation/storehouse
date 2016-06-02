@@ -1,4 +1,4 @@
-# Katalyst Edyucation Storehouse
+# Katalyst Education Storehouse
 Code snippets, digital notes, configuration manuals.
 
 ### General contribution rules

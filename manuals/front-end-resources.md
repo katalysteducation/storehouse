@@ -15,11 +15,16 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
 ### JavaScript Advanced
 
 ##### Modules
- - Browserify [NPM modules on browser](https://scotch.io/tutorials/getting-started-with-browserify)
+ - Browserify [NPM modules in browser](https://scotch.io/tutorials/getting-started-with-browserify)
  - [Modules Overview](https://www.sitepoint.com/javascript-modules-bundling-transpiling/)
 
 ##### Testing
  - [Unit Testing](https://www.sitepoint.com/unit-test-javascript-mocha-chai/)
+
+##### ES 2015 the new JavaScript
+ - [ECMAScript 6: what's next for JavaScript](https://www.youtube.com/watch?v=G21rdWfa_as)
+ - [ES6 and ES7 the future of Javascript ](https://www.youtube.com/watch?v=6AytbSdWBKg)
+ - [ES6 Tutorial](https://www.youtube.com/playlist?list=PL57atfCFqj2h5fpdZD-doGEIs0NZxeJTX)
 
 ##### Immutable
   - [Concept of Immutability](https://www.youtube.com/watch?v=YFP8lbdZ0cs&index=35)
@@ -38,7 +43,7 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
 - [Documentation](http://coffeescript.org/)
 - [Basic tutorial](https://www.youtube.com/watch?v=LwYGPc-6sa0)
 
-### Cascading Style Sheets (CSS)
+### CSS : Cascading Style Sheets
 
 ##### Boost up the CSS
  - [Less tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGCshbAx1JpBtNoKh8iKAAiy) - Start from lesson 3.
@@ -46,11 +51,10 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
  - [Sass tutorial](https://www.youtube.com/playlist?list=PL2CB1F80266E986EA)
  - Cleaner code with [BEM & SMACSS](https://www.youtube.com/watch?v=IKFq2cSbQ4Q&index=12) - Highly recommend this one.
 
-##### CSS Grid Systems
- - [Bootstrap](http://getbootstrap.com/)
- - [Foundations](http://foundation.zurb.com/)
- - [Neat](http://neat.bourbon.io/)
-
+##### Grid Systems
+ - CSS/Less [Bootstrap](http://getbootstrap.com/)
+ - CSS/Sass [Foundation](http://foundation.zurb.com/)
+ - Sass [Neat](http://neat.bourbon.io/)
 
 ### Package management
  - [NPM](https://www.npmjs.com/)
@@ -58,10 +62,8 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
  - [Webpack](https://webpack.github.io/)
 
 ### Task runners
- - [Grunt](http://gruntjs.com/)
- - [Grunt introduction](https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt)
- - [Gulp](http://gulpjs.com/)
- - [Gulp introduction](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
+ - [Grunt](http://gruntjs.com/), read [Introduction to Grunt](https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt)
+ - [Gulp](http://gulpjs.com/), read [Introduction to Gulp](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
 
 ### Performance
  - [Dirty Performance Secrets of HTML5 - Andreas Gal](https://www.youtube.com/watch?v=t8x40JXUeWA)
@@ -69,7 +71,6 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
 ### Goodies
 - Almost everything about every cool stuff out there [Awsome](https://github.com/sindresorhus/awesome)
 - [jsTips](http://www.jstips.co/)
-
 
 ### Basic GIT
 - [The simple guide](http://rogerdudler.github.io/git-guide/)

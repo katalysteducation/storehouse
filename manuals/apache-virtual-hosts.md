@@ -9,7 +9,8 @@ Instructions for how to setup virtual hosts on OSX
      127.0.0.1       www.webview.dev
      127.0.0.1       webview.dev
      ```
-     
+ * Save by typing in `^X`, then `Y`, then `return`.
+
 3. Edit the virtual host file so that you are directing to your desired domain. Pull up the editor with this command `$ sudo nano /etc/apache2/extra/httpd-vhosts.conf`.
  * If the desired domain is `webview.dev`, edit the config file so that it looks the same as below. Furthermore, make sure to put the installed `webview` folder into the directory `/Library/WebServer/Documents/`.
  * Save by typing in `^X`, then `Y`, then `return`.
@@ -33,6 +34,7 @@ Instructions for how to setup virtual hosts on OSX
  * Type `^W` to search and type in `virtual hosts`.
  * Remove the `#` that comments out the following line: `# Include /private/etc/apache2/extra/httpd-vhosts.conf`
  * Save by typing in `^X`, then `Y`, then `return`.
+
 5. Restart the server with `$ sudo apachectl restart`.
 6. Visit `webview.dev` in your browser to check if virtual host is running.
 

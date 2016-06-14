@@ -22,10 +22,11 @@ Instructions for how to setup virtual hosts on OSX
      ```
 
 3. Edit the config file: `$ sudo nano /etc/apache2/httpd.conf`
-    a. Type `^W` to search and type in `virtual hosts`.
-    b. Remove the `#` that comments out the following line: `# Include /private/etc/apache2/extra/httpd-vhosts.conf`
-    c. Save by typing in `^X`, then `Y`, then `return`.
+ * Type `^W` to search and type in `virtual hosts`.
+ * Remove the `#` that comments out the following line: `# Include /private/etc/apache2/extra/httpd-vhosts.conf`
+ * Save by typing in `^X`, then `Y`, then `return`.
 4. Restart the server: `$ sudo apachectl restart`
+5. Visit `webview.dev` in your browser to check if virtual host is running.
 
 # Apache virtual hosts on Windows (XAMPP)
 Instructions for how to setup virtual hosts on Windows with [XAMPP](https://www.apachefriends.org/pl/index.html)

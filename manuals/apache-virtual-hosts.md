@@ -8,6 +8,9 @@ Instructions for how to setup virtual hosts on OSX
      ```
      127.0.0.1       www.webview.dev
      127.0.0.1       webview.dev
+     
+     127.0.0.1       localhost.dev
+     127.0.0.1       www.localhost.dev
      ```
  * Save by typing in `^X`, then `Y`, then `return`.
 
@@ -23,10 +26,10 @@ Instructions for how to setup virtual hosts on OSX
        ServerAlias www.webview.dev
      </VirtualHost>
      <VirtualHost *:80>
-       ServerAdmin webmaster@localhost.com
+       ServerAdmin webmaster@localhost.dev
        DocumentRoot "/Library/WebServer/Documents/"
-       ServerName localhost.com
-       ServerAlias www.localhost.com
+       ServerName localhost.dev
+       ServerAlias www.localhost.dev
      </VirtualHost>
      ```
 

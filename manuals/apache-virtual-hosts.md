@@ -3,43 +3,48 @@ Instructions for how to setup virtual hosts on OSX
 
 1. Start the apache server with `$ sudo apachectl start`.
 2. Edit the host file with `$ sudo nano /private/etc/hosts`.
- * Add to the bottom of the bottom of the file the following code (if the desired domain is `webview.dev`):
-   
+ * Add to the bottom of the bottom of the file the following code (if the desired domain is `localhost`):
+
      ```
-     127.0.0.1       www.webview.dev
-     127.0.0.1       webview.dev
-     
-     127.0.0.1       localhost.dev
-     127.0.0.1       www.localhost.dev
+     127.0.0.1       localhost
      ```
  * Save by typing in `^X`, then `Y`, then `return`.
 
-3. Edit the virtual host file so that you are directing to your desired domain. Pull up the editor with this command `$ sudo nano /etc/apache2/extra/httpd-vhosts.conf`.
- * If the desired domain is `webview.dev`, edit the config file so that it looks the same as below. Furthermore, make sure to put the installed `webview` folder into the directory `/Library/WebServer/Documents/`.
+3. If the directory `/Library/WebServer/Documents/` does not exist
+ * Create directory `/Library/WebServer/Documents/`
+ * Put the file `index.html` into the directory `/Library/WebServer/Documents/`. This file might looks like below
+
+     ```
+     <html>
+      <body>
+        <h1>It works!</h1>
+      </body>
+    </html>
+     ```
+
+4. Edit the virtual host file so that you are directing to your desired domain. Pull up the editor with this command `$ sudo nano /etc/apache2/extra/httpd-vhosts.conf`.
+ * If the desired domain is `localhost`, edit the config file so that it looks the same as below.
  * Save by typing in `^X`, then `Y`, then `return`.
 
      ```
      <VirtualHost *:80>
-       ServerAdmin webmaster@webview.dev
-       DocumentRoot "/Library/WebServer/Documents/webview/dist/"
-       ServerName webview.dev
-       ServerAlias www.webview.dev
-     </VirtualHost>
-     <VirtualHost *:80>
-       ServerAdmin webmaster@localhost.dev
+       ServerAdmin webmaster@wlocalhost
        DocumentRoot "/Library/WebServer/Documents/"
-       ServerName localhost.dev
-       ServerAlias www.localhost.dev
+       ServerName localhost
+       ServerAlias www.localhost
      </VirtualHost>
      ```
 
-4. Edit the config file: `$ sudo nano /etc/apache2/httpd.conf`
+5. Edit the config file: `$ sudo nano /etc/apache2/httpd.conf`
  * Type `^W` to search and type in `virtual hosts`.
  * Remove the `#` that comments out the following line: `# Include /private/etc/apache2/extra/httpd-vhosts.conf`
  * Save by typing in `^X`, then `Y`, then `return`.
 
-5. Restart the server with `$ sudo apachectl restart`.
-6. Visit `webview.dev` in your browser to check if virtual host is running.
+6. Restart the server with `$ sudo apachectl restart`.
+7. Visit `localhost` in your browser to check if virtual host is running.
+
+### NOTE:
+You can set up any virtual host (e.g., `demo`, `test.dev`, etc.) in a same way.
 
 # Apache virtual hosts on Windows (XAMPP)
 Instructions for how to setup virtual hosts on Windows with [XAMPP](https://www.apachefriends.org/pl/index.html)

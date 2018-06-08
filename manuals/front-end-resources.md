@@ -29,7 +29,7 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
 
 ##### ES 2016 the new JavaScript
  - [ECMAScript 6: what's next for JavaScript](https://www.youtube.com/watch?v=G21rdWfa_as)
- - [ES6 and ES7 the future of Javascript ](https://www.youtube.com/watch?v=6AytbSdWBKg)
+ - [Async Programming in ES7](https://www.youtube.com/watch?v=lil4YCCXRYc)
  - [ES6 Tutorial](https://www.youtube.com/playlist?list=PL57atfCFqj2h5fpdZD-doGEIs0NZxeJTX)
  - [Babel](http://babeljs.io/) - JavaScript compiler for ES6.
 
@@ -37,7 +37,7 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
  - [Promises in Javascript ](https://www.youtube.com/watch?v=oa2clhsYIDY)
 
 ##### Immutable
- - [Concept of Immutability](https://www.youtube.com/watch?v=YFP8lbdZ0cs&index=35)
+ - [Concept of Immutability](https://www.youtube.com/watch?v=4LzcQyZ9JOU)
 
 ##### Performance
  - Andreas Gal [Dirty Performance Secrets of HTML5](https://www.youtube.com/watch?v=t8x40JXUeWA)
@@ -67,6 +67,11 @@ All that you can use to better understand front-end stuff like JavaScript, CSS, 
 
 
 ### CSS : Cascading Style Sheets
+
+#### 🔥 CSS Grid 
+- [CSS Grid Changes Everything](https://www.youtube.com/watch?v=txZq7Laz7_4)
+- [CSS Grid Layout and Progressive Enhancement](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_and_Progressive_Enhancement)
+- [Grid by Example](https://gridbyexample.com/)
 
 ##### Boost up the CSS
  - [The 30 CSS Selectors you should know about](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)

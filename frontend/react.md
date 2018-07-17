@@ -39,7 +39,7 @@ The goal of this task is to create simple app that:
 1. Use **JavaScript ES2015** (ES6) syntax
 2. Use only libraries that are specified above as the one in Career Map ecosystem
 3. Use `styled-components` to style your app
-4. Write as modular code as possible, learn about what is a component and how it can helps you
+4. Write as modular code as possible, learn about what is a [component and how it can helps you](https://medium.com/teamsubchannel/react-component-patterns-e7fb75be7bb0)
 5. Final code need to be cleaned up and easy to understand by other developers
 6. Take the **mobile first** approach. Desktop layout is not required
 7. App need to be available under public URL so others team members can test in on their mobile phones
@@ -119,7 +119,7 @@ Response:
 ]
 ```
 
-**TIP** If you want to display images like *avatar* or *photo* you need to prepend the *avatar/photo url* with `https://mapakarier.org/app/assets/` prefix. E.g.: `https://mapakarier.org/app/assets/avatars/paths/administrator-baz-danych-m.jpg`
+**TIP** If you want to display images like *avatar* or *photo* you need to prepend the *avatar/photo url* with `https://mapakarier.org/app/assets/` prefix. E.g.: [https://mapakarier.org/app/assets/avatars/paths/administrator-baz-danych-m.jpg](https://mapakarier.org/app/assets/avatars/paths/administrator-baz-danych-m.jpg)
 
 
 #### Get occupation's statistics

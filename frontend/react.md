@@ -39,17 +39,17 @@ The goal of this task is to create simple app that:
 1. Use **JavaScript ES2015** (ES6) syntax
 2. Use only libraries that are specified above as the one in Career Map ecosystem
 3. Use `styled-components` to style your app
-4. Embrace components convention - write as modular code as possible
+4. Write as modular code as possible, learn about what is a component and how it can helps you
 5. Final code need to be cleaned up and easy to understand by other developers
 6. Take the **mobile first** approach. Desktop layout is not required
-7. App need to be available under public URL so others team members can test in on their mobile phones.
+7. App need to be available under public URL so others team members can test in on their mobile phones
 
 ### 📐 Startup Guidelines
 
 1. Install [NodeJS](https://nodejs.org/en/) with npm
 2. Inslall [Parcel](https://en.parceljs.org/) by runing in your termimal command `npm install -g parcel-bundler`
-3. Create project directory with a new **package.json** file `npm init -y`
-4. Install CM's Ecosystem
+3. Create project directory, anter it and create a new **package.json** file `npm init -y`
+4. Install CM's ecosystem:
 ```
 npm install -S react react-dom react-router react-router-dom styled-components redux react-redux reselect
 ```
@@ -59,8 +59,7 @@ npm install -S react react-dom react-router react-router-dom styled-components r
 "scripts": {
     ...
     "start": "parcel index.html -p 8080",
-    "build": "parcel build index.html --public-url ./",
-    ...
+    "build": "parcel build index.html --public-url ./"    
   },
 ```
 7. Run `npm start` and in your boreser open url `http://localhost:8080/`
@@ -70,7 +69,7 @@ Below you can find information about Career Map API and the specific method requ
 
 #### Requests
 
-All request sends to CM need to be confhutrd asa show below:
+All request sends to CM need to be configured as shown below:
 ```
 {
   mode: "cors",
@@ -93,7 +92,7 @@ Response:
 }
 ```
 
-The last part of the URL is gender it can be set to `male` of `fem` to get occupations with desired gender. Authorization need to be set only once when the app is booting up.
+The last part of the URL is **gender** parameter. It can be set to `male` or `fem` to get occupations with desired gender. Authorization should to be set only once when the app is booting up.
 
 
 #### Get all occupation
@@ -120,11 +119,11 @@ Response:
 ]
 ```
 
-**TIP** If you want to gest access to the images like *avatar* or *photo* you need to prepend the *avatar/photo url* with `https://mapakarier.org/app/assets/` prefix.
+**TIP** If you want to display images like *avatar* or *photo* you need to prepend the *avatar/photo url* with `https://mapakarier.org/app/assets/` prefix. E.g.: `https://mapakarier.org/app/assets/avatars/paths/administrator-baz-danych-m.jpg`
 
 
 #### Get occupation's statistics
-Detail data about occupations are served in small chunks hidden behind specific methods like e.g. `getJobStatistics` that as a parameter `:id` get the occupation's job ID. Below the `:id` is a placeholder for occupation ID e.g. `415`.
+Detail data about occupations are served in small chunks hidden behind specific methods like e.g. `getJobStatistics`. This method gest only one parameter that is `:id` of the occupation. The `:id` is a placeholder for occupation id number like `415`. E.g. `https://mapakarier.org/backend/www/api/v1/occupation/getJobStatistics/415`
 
 ```
 Request:

@@ -10,7 +10,7 @@ Instructions how to install Pi-stacja test website on the local machine.
 ## Additionally
 It is good to have but it is not necessary.
 
-1. Separate domain/subdomain for instalation.
+1. Separate domain/subdomain for installation.
 2. Separate database.
 
 ## Steps

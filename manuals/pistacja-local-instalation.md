@@ -19,5 +19,5 @@ It is good to have but it is not necessary.
 2. Download (to the main directory for the website) dump file (http://pistacja.kylos.net.pl/pistacja_test2/site-pistacja.kylos.net.pl-20181010-110147utc.jpa).
 3. Run `kickstart.php` in the browser. Video tutorial to the installation process: https://www.akeebabackup.com/videos/1212-akeeba-backup-core/1618-abtc04-restore-site-new-server.html
 4. In the command line:
-  4.1. `cd <main-directory-for-the-website>`
-  4.2. `php cli/finder_indexer.php`
+  * `cd <main-directory-for-the-website>`
+  * `php cli/finder_indexer.php`

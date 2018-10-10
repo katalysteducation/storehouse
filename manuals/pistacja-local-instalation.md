@@ -8,7 +8,7 @@ Instructions how to install Pi-stacja test website on the local machine.
 3. MySQL 5.6 or higher
 
 ## Additionally
-Tt is good to have but it is not necessary.
+It is good to have but it is not necessary.
 
 1. Separate domain/subdomain for instalation.
 2. Separate database.

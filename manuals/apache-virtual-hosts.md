@@ -44,7 +44,9 @@ Instructions for how to setup virtual hosts on OSX
 7. Visit `localhost` in your browser to check if virtual host is running.
 
 ### NOTE:
-You can set up any virtual host (e.g., `demo`, `test.dev`, etc.) in a same way.
+
+1. You can set up any virtual host (e.g., `demo`, `test.dev`, etc.) in a same way.
+2. You cannot use `_` in the domain name and also this sign should not be in the directory name.
 
 # Apache virtual hosts on Windows (XAMPP)
 Instructions for how to setup virtual hosts on Windows with [XAMPP](https://www.apachefriends.org/pl/index.html)
